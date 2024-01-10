@@ -59,3 +59,8 @@ footer{
 .j{
     background-image: url("images/kick.png");
 }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #3ecbfa;
+    opacity: 0.5;
+  }
