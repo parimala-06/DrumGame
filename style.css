@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: aqua;
+    background-color: rgb(122, 255, 255);
     text-align: center;
 }
 
@@ -16,15 +16,46 @@ h1{
     align-items: center;
 }
 
-.container > div{
-    width: 200px;
-    height: 200px;
+.container > button{
+    width: 150px;
+    height: 150px;
     margin: 20px;
-    border: 5px blue solid;
-    
+    background-color: whitesmoke;
+    border: 5px rgb(213, 76, 255) solid;
+
 }
 
 footer{
     font-family: 'Gluten', cursive;
     font-size: 20px;
+}
+
+.a{
+    background-image: url("images/crash.png");
+    object-fit: contain;
+}
+
+.s{
+    background-image: url("images/tom1.png");
+    object-fit: fill;
+}
+
+.d{
+    background-image: url("images/tom2.png");
+}
+
+.f{
+    background-image: url("images/snare.png");
+}
+
+.g{
+    background-image: url("images/tom3.png");
+}
+
+.h{
+    background-image: url("images/tom4.png");
+}
+
+.j{
+    background-image: url("images/kick.png");
 }
