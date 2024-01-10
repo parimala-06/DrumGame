@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+
+h1{
+    font-family: 'Gluten', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.drum{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 5000px;
+}
